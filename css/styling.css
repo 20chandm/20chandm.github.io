@@ -7,13 +7,16 @@ h3 {
 
 .rounded-circle {
 	width: 300px;
-	height: 250px;
+	height: 400px;
 	border: solid;
-	color: pink;
+	color: #BE0077;
 
 
 }
 
+.navbar {
+	color: black;
+}
 
 .extra-space{
 	margin-bottom: 20px;
@@ -40,15 +43,137 @@ h3 {
 
  .progress4 {
  	text-align: left;
- 	padding-left: 140px;
+ 	padding-left: 250px;
  	font-family: Times New Roman, Palatino;
  	}	
 
+html {
+  background-color: #f5f7f9;
+}
+
+body {
+  background: none;
+  color: black;
+  font-family: "Times New Roman", Arial, sans-serif;
+}
+
+strong {
+  color: #222324;
+}
+
+.navbar {
+  background: #e16879;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #e16879;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #e05164;
+  border-color: #e05164;
+}
+
+.card {
+  border-color: #ccc;
+}
+
+.card-title {
+  color: #e16879;
+  font-weight: 300;
+}
+
+.card-block small {
+  float: right;
+}
+
+.description {
+  background-image: url("/pattern.png");
+  background-repeat: repeat-x;
+}
+
+
+.card-footer {
+	padding-right: all;
+	align-self: all; 
+}
+
+
+.card-title {
+	text-align: all;
+	color: #BE0077;
+
+
+}
+
+.infotitle {
+	font-size: large;
+	color: black;
+}
+
+.logos {
+	text-align: center;
+	padding-bottom: 10px;
+	size: large;
+
+}
+
+
+.custom-text {
+	color: black;
+}
 
 
 
+.gtkm {
+	padding-top: 20px;
+	font-size: x-large;
+
+}
+
+.information {
+	color: black;
+	padding-bottom: 20px;
+	text-align: left;
+	padding-left: 20px;
+}
 
 
+.skills {
+	font-size: x-large;
+	padding-top: 20px;
+
+}
+
+.text-center { 
+	padding-top:: 10px;
+ }
+
+.about-me {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.about-me-card {
+	float: right;
+}
+
+.rounded-circle {
+	width: 200px;
+	height: auto;
+}
 
 
+.rounded-circle2 {
+	width: 500px;
+	height: 600px;
 
+}
